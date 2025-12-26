@@ -1,0 +1,280 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+  
+/* font */
+p {
+    font-family:monospace;
+}
+
+a {
+    font-family: 'regular';
+    font-size: 2rem;
+    font-style: bold;
+    color: black;
+}
+
+body {
+    background-color: #edd8f8;
+
+}
+
+/* bottomnav */
+.bottomNav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #334663;
+    font-family: "Lacquer";
+  }
+  
+  /* Style the topnav links */
+.bottomNavleftside a {
+    margin: 0% 1%;
+    float: right;
+    display: block;
+    color: #a3c5f1;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+
+}
+
+.topnavrightside {
+    padding-right: 2%;
+}
+
+.topnavrightside img{
+    align-items: center;
+
+    border-radius: 50%;
+    margin: 0.5% 0.3%;
+    float: right;
+}
+
+
+/* header */
+.header {
+    display:column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 3%;
+    padding: 1% 1%;
+    background-color: #f5e8dd;
+    border-radius: 1rem;
+
+    animation-name: myAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    }
+
+.header h1{
+    font-size: 6rem;
+    font-family: "Shadows Into Light";
+
+}
+
+@keyframes myAnimation {
+    0%   {background-color: rgba(174, 0, 255, 0.306);}
+    25%  {background-color: rgba(0, 119, 255, 0.634);}
+    50%  {background-color: rgba(0, 128, 119, 0.648);}
+    100% {background-color: rgba(41, 0, 128, 0.648);}
+}
+
+.header h2{
+    font-size: 3rem;
+    
+}
+
+.pages {
+    align-items: start;
+}
+
+
+/* intro */
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: 2% 3%;
+    padding: 1% 1%;
+}
+
+.intro h2{  
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.intro p{
+    display:flex;
+    color: white;
+}
+
+
+/* divider 1 */
+.divider1 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: 2% 3%;
+    padding: 1% 1%;
+}
+
+.divider1 p{
+    color: white;
+}
+
+
+/* extracirriculars */
+.extracirriculars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+/* About me heading */
+.aboutme h2{
+    font-size: 3rem;
+    font-family: "Shadows Into Light";
+    color: cornflowerblue;
+
+}
+
+/* About me box */
+.aboutme {
+    height: 500px;
+    width: 400px;
+    background-color: #f5e8dd;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    border: 5px double rgb(80, 52, 103);
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.aboutme img{
+    display: flex;
+    align-items: center;
+    
+}
+
+.aboutme:hover {
+    transform: scale(1.05);
+}
+
+/* basic info box */
+.basicinfo {
+    align-items: normal;
+    height: 280px;
+    width: 700px;
+    background-color: #f5e8dd;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    border: 5px double rgb(80, 52, 103);
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.basicinfo h3{
+    text-align: start;
+    margin: 3.0%;
+
+}
+
+.basicinfo h2{
+    color: black;
+    margin: 1%;
+    font-size: 2rem;
+}
+
+.basicinfo:hover {
+    transform: scale(1.05);
+}
+
+.basicinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.introduction p{
+    display: flex;
+    margin: 3% 3%;
+}
+
+
+/* extracirricular boxes */
+.item {
+    height: 200px;
+    width: 400px;
+    background-color: #f5e8dd;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    border: 3px dotted black;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item a{
+    font-family: "Lacquer";
+}
+
+
+/* passion projects */
+.passionprojects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.project {
+    height: 200px;
+    width: 400px;
+    background-color: #f5e8dd;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    border: 3px dotted black;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+.project a{
+    font-family: "Lacquer";
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    align-items: center;
+    margin: 3% 3%;
+    padding: 2% 2%;
+    background-color: powderblue;
+}
+
